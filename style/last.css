@@ -1,0 +1,46 @@
+.noto-sans-multani-regular {
+  font-family: "Noto Sans Multani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+last {
+  background-color: #0e0b14;
+  width: 100%;
+  min-height: 180px;
+  position: absolute;
+  bottom: -103%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+last img {
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: auto;
+  filter: invert(48%) sepia(100%) saturate(1%) hue-rotate(86deg)
+    brightness(1180%) contrast(100%);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-top: 20p;
+  cursor: pointer;
+}
+
+.footer-copy {
+  color: #ccc;
+  font-size: 13px;
+}
